@@ -38,3 +38,10 @@ sources=43、questions=26、api_questions=14、flows=4。這不代表臨床內�
 關聯規則共用同一實作、可宣告設定與明確失敗處理；沒有整體加速證據。
 仍保留 Python 領域解析並新增子程序，成本必須納入後續評估。一次暖快取
 量測不能推論能源、維護工時或 LLM token 節省，原始樣本留工具庫 .local。
+
+## 共用 profile
+
+[workspace-verify.json](../workspace-verify.json)提供 `workspace-verify run workspace-verify.json`
+入口，固定來源已升級至支援此規則的完整 SHA。此 profile 只驗證六組關聯；
+完整治理驗收仍須執行上述 Python 入口，保留 URL、簽核、合成資料與文件引用
+規則。本輪已用安裝後的全域命令驗證 profile 與完整入口，兩者皆通過。
