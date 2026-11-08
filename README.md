@@ -277,3 +277,5 @@ docs/repo-organization.md
    guideline sprint so literature work produces source-backed decisions and
    gaps, not isolated summaries.
 18. Keep planning updated with status, blockers, and capacity impact only.
+
+治理檢查的共用關聯機制、安裝與驗收範圍見 [共用 Rust 工具](docs/shared-rust-tools.md)。
